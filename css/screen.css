@@ -1,0 +1,75 @@
+body {
+	font-family: Verdana;
+	padding: 0px 0px 80px 0px;
+	margin: 0px;
+	background-color: rgb(243, 243, 243);
+}
+
+section#todo-app {
+	width: 450px;
+	margin: 0px auto;
+}
+
+section#todo-app footer p{
+	font-size: 11px;
+}
+
+input#new-todo {
+	width: 450px;
+}
+
+table#todo-list {
+	width: 450px;
+	line-height: 20px;
+	border-spacing: 0px;
+}
+
+table#todo-list tr.last td {
+	font-size: 11px;
+	border-top: 1px solid silver;
+}
+
+a {
+	color: #990000;
+	text-decoration: none;
+	transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+}
+
+a:hover {
+	color: #000000;
+}
+
+#todo-list tr .edit {
+	display: none;
+	width: 300px;
+}
+
+#todo-list .body span {
+	display: block;
+	width: 300px;
+	cursor: pointer;
+}
+
+#todo-list tr.editing .edit {
+	display: block;
+}
+
+#todo-list tr.editing .body {
+	display: none;
+}
+
+
+input {
+	height: 24px;
+	font-family: Verdana;
+	font-size: 15px;
+	line-height: 24px;
+	padding: 2px;
+}
+
+.hidden{
+	display:none;
+}
